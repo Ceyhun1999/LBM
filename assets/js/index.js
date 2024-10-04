@@ -32,6 +32,7 @@ window.addEventListener("scroll", () => {
 
 const productsSwiper1 = new Swiper(".products-swiper-1", {
     slidesPerView: 1,
+    loop: true,
     spaceBetween: 10,
     pagination: { el: ".swiper-pagination", clickable: !0 },
     navigation: { nextEl: ".products_next", prevEl: ".products_prev" },
@@ -47,6 +48,7 @@ productsSwiper1.init();
 const productsSwiper2 = new Swiper(".products-swiper-2", {
     slidesPerView: 1,
     spaceBetween: 10,
+    loop: true,
     pagination: { el: ".swiper-pagination", clickable: !0 },
     navigation: { nextEl: ".products_next", prevEl: ".products_prev" },
     breakpoints: {
@@ -61,6 +63,7 @@ productsSwiper2.init();
 const productsSwiper3 = new Swiper(".products-swiper-3", {
     slidesPerView: 1,
     spaceBetween: 10,
+    loop: true,
     pagination: { el: ".swiper-pagination", clickable: !0 },
     navigation: { nextEl: ".products_next", prevEl: ".products_prev" },
     breakpoints: {
@@ -115,6 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
 const partnorsSwiper = new Swiper("#partnors-slide", {
     slidesPerView: 1,
     spaceBetween: 10,
+    loop: true,
     autoplay: { delay: 2500, disableOnInteraction: false },
     breakpoints: {
         0: { slidesPerView: 1.5, navigation: false },
