@@ -1,0 +1,2149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LBM-DEVELOPMENT</title>
+    <!-- Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+</head>
+
+<body>
+    <div class="fixed__socials">
+        <ul class="fixed-icon-wrapper">
+            <!-- phone -->
+            <li class="fixed-icon__item bg">
+                <a href="tel:+7xxxxxxxxx">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 1.531 1.531"
+                        xml:space="preserve">
+                        <path fill="currentColor"
+                            d="M1.321.774h-.078A.46.46 0 0 0 .781.312V.234a.54.54 0 0 1 .54.54M.781.368v.078a.33.33 0 0 1 .327.327h.078A.406.406 0 0 0 .781.368M.766 0a.766.766 0 0 0 0 1.532.047.047 0 0 0 0-.095.672.672 0 1 1 .671-.671.43.43 0 0 1-.2.373.3.3 0 0 1-.139.036.2.2 0 0 0 .075-.072q.007-.008.011-.017c.015-.037.017-.079.026-.118C1.221.918.992.821.972.883.965.906.954.979.939.998.926 1.015.894 1.007.874.99.822.945.763.88.712.828L.708.824.704.82C.652.769.587.71.542.658.525.638.517.606.534.593.553.578.626.568.649.56.711.54.614.31.564.322.525.331.483.333.446.348L.429.359C.298.442.281.644.409.795a4 4 0 0 0 .152.168l.004.004.004.004c.054.052.119.13.224.199.22.147.39.106.489.051.172-.095.249-.297.249-.456A.766.766 0 0 0 .766 0" />
+                    </svg>
+                </a>
+            </li>
+            <!-- wp -->
+            <li class="fixed-icon__item">
+                <a href="https://wa.me/xxxxxxxx">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 12.031 12.031"
+                        xml:space="preserve">
+                        <g data-name="Layer 2">
+                            <g data-name="09.whatsapp">
+                                <path fill="#29a71a" data-original="#29a71a"
+                                    d="M12.031 6.016a6.016 6.016 0 0 1-6.015 6.015A6.016 6.016 0 0 1 0 6.016a6.016 6.016 0 0 1 12.031 0" />
+                                <g fill="#fff">
+                                    <path
+                                        d="M8.668 3.363a3.73 3.73 0 0 0-5.976 4.315L2.297 9.6a.15.15 0 0 0 .022.111.15.15 0 0 0 .153.06l1.883-.446a3.73 3.73 0 0 0 4.314-5.962M8.081 8.05a2.92 2.92 0 0 1-3.364.547l-.262-.13-1.155.274.003-.015.239-1.162-.128-.254a2.92 2.92 0 0 1 .537-3.391 2.92 2.92 0 0 1 4.13 0l.015.015a2.917 2.917 0 0 1-.015 4.114"
+                                        data-original="#ffffff" />
+                                    <path
+                                        d="M7.979 7.197c-.141.223-.365.496-.646.563-.493.12-1.247.004-2.188-.872l-.012-.01c-.827-.766-1.041-1.403-.989-1.909.029-.287.268-.547.47-.716a.268.268 0 0 1 .42.096l.305.684a.26.26 0 0 1-.034.274l-.153.2a.26.26 0 0 0-.023.296c.086.152.293.373.522.579.257.232.542.445.722.518a.26.26 0 0 0 .286-.06l.178-.179a.28.28 0 0 1 .267-.069l.722.206a.274.274 0 0 1 .153.404"
+                                        data-original="#ffffff" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+            <!-- telegram -->
+            <li class="fixed-icon__item">
+                <a href="https://t.me/xxxxxxxxxxxx">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 11.908 11.908"
+                        xml:space="preserve">
+                        <path fill="#039be5" data-original="#039be5"
+                            d="M11.908 5.954a5.954 5.954 0 0 1-5.954 5.954A5.954 5.954 0 0 1 0 5.954a5.954 5.954 0 0 1 11.908 0" />
+                        <path fill="#fff"
+                            d="m2.723 5.822 5.74-2.215c.264-.092.498.061.417.467l-.976 4.603q-.111.487-.538.254L5.883 7.833l-.722.691c-.081.082-.142.142-.305.142l.102-1.514 2.753-2.489c.122-.101-.03-.162-.182-.061L4.125 6.746l-1.473-.457c-.315-.102-.325-.315.071-.477"
+                            data-original="#ffffff" />
+                    </svg>
+                </a>
+            </li>
+            <!-- mail -->
+            <li class="fixed-icon__item bg">
+                <a href="mailto:xxxxxxxxxxxx">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                        xml:space="preserve">
+                        <path fill="currentColor"
+                            d="M31.719 4.375H3.281A3.28 3.28 0 0 0 0 7.656v19.688a3.28 3.28 0 0 0 3.281 3.281h28.438A3.28 3.28 0 0 0 35 27.344V7.656a3.28 3.28 0 0 0-3.281-3.281m-3.863 2.188L17.5 14.739 7.144 6.563zm2.769 21.875H4.375V10.163L17.5 20.258l13.125-10.097z"
+                            data-original="#000000" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+        <div class="fixed__open-close-icon-wrapper fixed-icon__item">
+            <!-- <svg
+          class="fixed__socials__open"
+          xmlns="http://www.w3.org/2000/svg"
+          width="35"
+          height="35"
+          viewBox="0 0 1.641 1.641"
+          xml:space="preserve"
+        >
+          <path
+            fill="currentColor"
+            fill-rule="evenodd"
+            d="M.271 1.113a.05.05 0 0 1 0-.072L.784.528a.05.05 0 0 1 .072 0l.513.513a.051.051 0 1 1-.072.072L.82.636l-.476.476a.05.05 0 0 1-.072 0"
+            clip-rule="evenodd"
+          />
+        </svg> -->
+
+            <svg class="fixed__socials__open" xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                viewBox="0 0 35 35" xml:space="preserve">
+                <path fill="currentColor"
+                    d="M27.754 2.119h-8.203c-3.957 0-7.178 3.22-7.178 7.178 0 3.61 2.679 6.606 6.152 7.105v3.149a1.02 1.02 0 0 0 .633.947c.378.158.822.073 1.118-.222l3.801-3.801h3.677c3.957 0 7.246-3.22 7.246-7.178s-3.289-7.178-7.246-7.178m-8.203 8.203a1.025 1.025 0 1 1 0-2.05 1.025 1.025 0 0 1 0 2.05m4.102 0a1.025 1.025 0 1 1 0-2.05 1.025 1.025 0 0 1 0 2.05m4.102 0a1.025 1.025 0 1 1 0-2.05 1.025 1.025 0 0 1 0 2.05"
+                    data-original="#000000" />
+                <path fill="currentColor"
+                    d="M23.037 32.881a3.08 3.08 0 0 0 3.076-3.076v-4.102c0-.442-.282-.833-.701-.972l-6.138-2.051a1.03 1.03 0 0 0-.893.119l-2.61 1.739c-2.764-1.318-6.043-4.597-7.361-7.361l1.739-2.61a1.03 1.03 0 0 0 .119-.893L8.217 7.536a1.02 1.02 0 0 0-.971-.7h-4.17A3.067 3.067 0 0 0 0 9.898c0 11.814 11.223 22.983 23.037 22.983"
+                    data-original="#000000" />
+            </svg>
+
+            <svg class="fixed__socials__close" xmlns="http://www.w3.org/2000/svg" width="23" height="23"
+                viewBox="0 0 1.117 1.117" xml:space="preserve">
+                <path
+                    d="M.016.093a.056.056 0 0 1 0-.077.056.056 0 0 1 .077 0l.465.466.466-.466a.055.055 0 0 1 .077 0 .054.054 0 0 1 0 .077L.636.558l.465.466a.054.054 0 0 1 0 .077.055.055 0 0 1-.077 0L.558.635l-.465.466a.056.056 0 0 1-.077 0 .055.055 0 0 1 0-.077L.481.558z"
+                    fill="currentColor" data-original="currentColor" />
+            </svg>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal__inner">
+            <div class="modal__header">
+                <h2>Получить консультацию</h2>
+                <svg class="close_modal" xmlns="http://www.w3.org/2000/svg" width="23" height="23"
+                    viewBox="0 0 1.117 1.117" xml:space="preserve">
+                    <path
+                        d="M.016.093a.056.056 0 0 1 0-.077.056.056 0 0 1 .077 0l.465.466.466-.466a.055.055 0 0 1 .077 0 .054.054 0 0 1 0 .077L.636.558l.465.466a.054.054 0 0 1 0 .077.055.055 0 0 1-.077 0L.558.635l-.465.466a.056.056 0 0 1-.077 0 .055.055 0 0 1 0-.077L.481.558z"
+                        fill="#1e201d" data-original="#1e201d" />
+                </svg>
+            </div>
+            <form>
+                <input type="text" placeholder="Ваше имя" />
+                <input type="number" placeholder="Ваш телефон" />
+                <textarea placeholder="Сообщение"></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img src="/assets/img/logo_fit.png" alt="" />
+                </div>
+
+                <div class="menu-bar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                        xml:space="preserve">
+                        <path fill="currentColor"
+                            d="M8.75 7c0-.966.784-1.75 1.75-1.75h22.75a1.75 1.75 0 0 1 0 3.5H10.5A1.75 1.75 0 0 1 8.75 7m24.5 8.75H1.75a1.75 1.75 0 0 0 0 3.5h31.5a1.75 1.75 0 0 0 0-3.5m0 10.5H17.5a1.75 1.75 0 0 0 0 3.5h15.75a1.75 1.75 0 0 0 0-3.5" />
+                    </svg>
+                </div>
+
+                <div class="header__right">
+                    <div class="close-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <nav class="center">
+                        <ul class="header__menu">
+                            <li class="menu__item"><a href="#about">О нас </a></li>
+                            <li class="menu__item"><a href="#products">Проекты</a></li>
+                            <li class="menu__item">
+                                <a href="#partnors-home">Партнеры </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#call-to-action">Контакты </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="right">
+                        <div class="header__socials">
+                            <a class="socials__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" xml:space="preserve">
+                                    <path fill="#25d366"
+                                        d="M500 1000C223.9 1000 0 776.1 0 500S223.9 0 500 0s500 223.9 500 500-223.9 500-500 500"
+                                        data-original="#25d366" />
+                                    <path fill="#fff" fill-rule="evenodd"
+                                        d="M733.9 267.2c-62-62.1-144.6-96.3-232.5-96.4-181.1 0-328.6 147.4-328.6 328.6 0 57.9 15.1 114.5 43.9 164.3L170.1 834l174.2-45.7c48 26.2 102 40 157 40h.1c181.1 0 328.5-147.4 328.6-328.6.1-87.8-34-170.4-96.1-232.5M501.5 772.8h-.1c-49 0-97.1-13.2-139-38.1l-10-5.9L249 755.9l27.6-100.8-6.5-10.3c-27.3-43.5-41.8-93.7-41.8-145.4.1-150.6 122.6-273.1 273.3-273.1 73 0 141.5 28.5 193.1 80.1s80 120.3 79.9 193.2c0 150.7-122.6 273.2-273.1 273.2m149.8-204.6c-8.2-4.1-48.6-24-56.1-26.7s-13-4.1-18.5 4.1-21.2 26.7-26 32.2-9.6 6.2-17.8 2.1-34.7-12.8-66-40.8c-24.4-21.8-40.9-48.7-45.7-56.9s-.5-12.7 3.6-16.8c3.7-3.7 8.2-9.6 12.3-14.4s5.5-8.2 8.2-13.7 1.4-10.3-.7-14.4-18.5-44.5-25.3-61c-6.7-16-13.4-13.8-18.5-14.1-4.8-.2-10.3-.3-15.7-.3-5.5 0-14.4 2.1-21.9 10.3s-28.7 28.1-28.7 68.5 29.4 79.5 33.5 84.9c4.1 5.5 57.9 88.4 140.3 124 19.6 8.5 34.9 13.5 46.8 17.3 19.7 6.3 37.6 5.4 51.7 3.3 15.8-2.4 48.6-19.9 55.4-39 6.8-19.2 6.8-35.6 4.8-39s-7.5-5.4-15.7-9.6"
+                                        clip-rule="evenodd" data-original="#ffffff" />
+                                </svg>
+                            </a>
+                            <a class="socials__item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    xml:space="preserve">
+                                    <circle cx="12" cy="12" r="12" fill="#039be5" data-original="#039be5" />
+                                    <path fill="#fff"
+                                        d="m5.491 11.74 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953"
+                                        data-original="#ffffff" />
+                                </svg>
+                            </a>
+                            <!-- <a class="socials__item"></a> -->
+                        </div>
+
+                        <a class="header__button open_modal"> Получить консультацию </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section slider">
+            <div class="swiper swiper-header">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide-1">
+                        <div class="container">
+                            <div class="swiper-text">
+                                <h2>Предприятие полного цикла:</h2>
+                                <p>Являемся собственниками двух производств конструкций из полистиролбетона</p>
+                                <div class="slide-btns">
+                                    <a href="#modal__contact"
+                                        class="swiper-slide__btn swiper-slide__btn-1 open_modal">Получить
+                                        консультацию <span></span></a>
+                                    <!-- <a
+                      class="swiper-slide__btn swiper-slide__btn-2"
+                      href="#modal__contact"
+                      >Get a consultation<span></span
+                    ></a> -->
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-2">
+                        <div class="container">
+                            <div class="swiper-text">
+                                <h2>АКЦИЯ!</h2>
+                                <p>При заказе домокомплекта проект в подарок.</p>
+                                <div class="slide-btns">
+                                    <a href="#modal__contact"
+                                        class="swiper-slide__btn swiper-slide__btn-1 open_modal">Получить
+                                        консультацию <span></span></a>
+                                    <!-- <a
+                      href="#modal__contact"
+                      class="swiper-slide__btn swiper-slide__btn-2"
+                      >Get a consultation<span></span
+                    ></a> -->
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-3">
+                        <div class="container">
+                            <div class="swiper-text">
+                                <h2>Высокая скорость возведения:</h2>
+                                <p>
+                                    монтаж 150 метрового домокомплекта в течении недели
+                                </p>
+                                <div class="slide-btns">
+                                    <a href="#modal__contact"
+                                        class="swiper-slide__btn swiper-slide__btn-1 open_modal">Получить
+                                        консультацию <span></span></a>
+                                    <!-- <a
+                      href="#modal__contact"
+                      class="swiper-slide__btn swiper-slide__btn-2"
+                      >Get a consultation<span></span
+                    ></a> -->
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-4">
+                        <div class="container">
+                            <div class="swiper-text">
+                                <h2>Сектор В2В:</h2>
+                                <p>
+                                    Работаем с застройщиками коттеджных поселков
+                                </p>
+                                <div class="slide-btns">
+                                    <a href="#modal__contact"
+                                        class="swiper-slide__btn swiper-slide__btn-1 open_modal">Получить
+                                        консультацию <span></span></a>
+                                    <!-- <a
+                      href="#modal__contact"
+                      class="swiper-slide__btn swiper-slide__btn-2"
+                      >Get a consultation<span></span
+                    ></a> -->
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-header-btns">
+                    <div class="button-prev">
+                        <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
+                    </div>
+                    <div class="button-next" tabindex="0" role="button">
+                        <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <span class="swiper-notification"></span>
+            </div>
+        </section>
+
+        <section class="hero-advantages py-5">
+            <div class="container ">
+                <h2 class="mb-4">Наши преимущества</h2>
+                <div class="row card-wrapper">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img src="/assets/img/quality.png" alt="Icon" class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <p class="card-text">
+                                        Высокое качество производимых материалов
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img src="/assets/img/group-chat.png" alt="Icon" class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <p class="card-text">
+                                        Профессиональная команда
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img src="/assets/img/consumer-centric.png" alt="Icon" class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <p class="card-text">
+                                        Индивидуальный подход
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img src="/assets/img/efficiency.png" alt="Icon" class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <p class="card-text">
+                                        Скорость возведения
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img src="/assets/img/customer-service.png" alt="Icon" class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <p class="card-text">
+                                        Полный цикл услуг
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img src="/assets/img/guarantee.png" alt="Icon" class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <p class="card-text">
+                                        Гарантия качества
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img src="/assets/img/planet-earth.png" alt="Icon" class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <p class="card-text">
+                                        Экологичность
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img src="/assets/img/value-chain.png" alt="Icon" class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <p class="card-text">
+                                        Оптимальная стоимость
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-1">
+                        <span class="about__turned">О нас</span>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <a href="https://www.youtube.com/watch?v=-YL4i362zus" class="p-0 col-md-5 about__video">
+                            <img src="/assets/img/about.JPG" class="about__video-img" alt="LBM-DEVELOPMENT" />
+                            <div class="play-button__wrapper">
+                                <div class="play-button__content">
+                                    <img src="/assets/img/cevre.png" alt="LBM-DEVELOPMENT" />
+                                    <svg class="button-play" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 1.707 1.707" xml:space="preserve" fill-rule="evenodd">
+                                        <path fill="currentColor"
+                                            d="m1.554.943-.649.375-.649.374a.1.1 0 0 1-.103 0 .1.1 0 0 1-.052-.09V.104A.1.1 0 0 1 .153.015a.1.1 0 0 1 .103 0l.65.375.648.375q.05.03.052.09c.002.06-.019.07-.052.089z" />
+                                    </svg>
+
+                                    <svg class="button-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"
+                                        xml:space="preserve">
+                                        <linearGradient id="a" x1=".5" x2="47.5" y1="24" y2="24"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop offset="0" stop-color="#957327" />
+                                            <stop offset="1" stop-color="#4b6126" />
+                                        </linearGradient>
+                                        <circle cx="24" cy="24" r="23.5" fill="url(#a)" data-original="url(#a)" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div class="right-side">
+                            <img style="border-radius: 100px; margin-bottom: 20px" src="/assets/img/logo_fit.png"
+                                width="350px" />
+                            <div class="about__text">
+                                <h3>О нас</h3>
+                                <p>
+                                    Компания LBM development занимается разработкой и
+                                    реализацией уникальных архитектурных проектов, интегрируя в
+                                    них современные технологии и устойчивые практики. Наша
+                                    команда стремится создать качественную и комфортную среду
+                                    для жизни и отдыха.На наших предприятиях мы производим
+                                    уникальные стеновые панели из полистиролбетона, внедряя
+                                    собственные разработки во все этапы производства
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero-advantages hero-advantages-2 py-5">
+            <div class="container ">
+                <h2 class="mb-4">Преимущества полистиролбетона</h2>
+                <div class="row card-wrapper">
+                    <div class="col-lg-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img style="max-width: 70px" src="/assets/img/check.png" alt="Icon"
+                                    class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <h5 class="card-title">Долговечность</h5>
+                                    <p class="card-text">
+                                        Срок эксплуатации выше, чем у кирпича и бетона. Расчетный срок службы домов из
+                                        полистиролбетона
+                                        составляет свыше 100 лет.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img style="max-width: 70px" src="/assets/img/check.png" alt="Icon"
+                                    class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <h5 class="card-title">Влагостойкость</h5>
+                                    <p class="card-text">
+                                        Процент водопоглощения до 6% (в 8 - 10 раз меньше чем у газобетона)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img style="max-width: 70px" src="/assets/img/check.png" alt="Icon"
+                                    class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <h5 class="card-title">Пожаробезопасность</h5>
+                                    <p class="card-text">
+                                        Не горит. При пожаре поверхностные гранулы полистиролбетона испаряются, а тление
+                                        и пламя
+                                        отсутствуют. Класс горючести - НГ
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img style="max-width: 70px" src="/assets/img/check.png" alt="Icon"
+                                    class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <h5 class="card-title">Теплоизоляция</h5>
+                                    <p class="card-text">
+                                        Снижение энергозатрат. Теплопровность 0,1 - 0, 14 Вт/м °С. Стена 300 мм из
+                                        полистиролбетона = 2,5 м
+                                        кирпичной кладки
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img style="max-width: 70px" src="/assets/img/check.png" alt="Icon"
+                                    class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <h5 class="card-title">Шумоизоляция</h5>
+                                    <p class="card-text">
+                                        Стена 300 мм гасит звук до 100 дБ (шум работающего двигателя грузовой машины)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img style="max-width: 70px" src="/assets/img/check.png" alt="Icon"
+                                    class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <h5 class="card-title">Энергоэффективность</h5>
+                                    <p class="card-text">
+                                        Дом будет остывать 2-3 дня, если отключить отопление при -20 °С (коэффициент
+                                        теплопроводности во
+                                        время эксплуатации 0,115 Вт/м °С)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img style="max-width: 70px" src="/assets/img/check.png" alt="Icon"
+                                    class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <h5 class="card-title">Экологичность</h5>
+                                    <p class="card-text">
+                                        В составе блоков цемент, вода и пищевой полистирол
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body row align-items-start">
+                                <img style="max-width: 70px" src="/assets/img/check.png" alt="Icon"
+                                    class="mb-3 col-3" />
+                                <div class="col-9">
+                                    <h5 class="card-title">Скорость сборки</h5>
+                                    <p class="card-text">
+                                        Монтаж дома составляет 2-3 дня
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why">
+            <div class="container">
+                <div class="why-head">
+                    <h2 class="mb-4">Почему полистиролбетон</h2>
+                </div>
+                <div class="why-main">
+                    <div class="why-table">
+                        <div class="why-table-head">
+                            <div class="why-table-row">
+                                <div class="why-table-col"></div>
+                                <div class="why-table-col"><span class="badge badge-red">Полистиролбетон</span></div>
+                                <div class="why-table-col"><span class="badge badge-grey">Газобетон</span></div>
+                                <div class="why-table-col"><span class="badge badge-grey">Кирпич</span></div>
+                            </div>
+                        </div>
+                        <div class="why-table-body">
+                            <div class="why-table-row">
+                                <div class="why-table-col"><span class="text-weight-700">Долговечность</span></div>
+                                <div class="why-table-col"><span class="text-weight-700">До 150 лет</span></div>
+                                <div class="why-table-col">До 40 лет</div>
+                                <div class="why-table-col">До 100 лет</div>
+                            </div>
+                            <div class="why-table-row">
+                                <div class="why-table-col"><span class="text-weight-700">Водопоглощение</span></div>
+                                <div class="why-table-col"><span class="text-weight-700">До 6%</span></div>
+                                <div class="why-table-col">До 60%</div>
+                                <div class="why-table-col">До 12%</div>
+                            </div>
+                            <div class="why-table-row">
+                                <div class="why-table-col"><span class="text-weight-700">Теплопроводность</span></div>
+                                <div class="why-table-col"><span class="text-weight-700">0,1 - 0,14</span></div>
+                                <div class="why-table-col">0,12 - 0,16</div>
+                                <div class="why-table-col">0,5 - 0,8</div>
+                            </div>
+                            <div class="why-table-row">
+                                <div class="why-table-col"><span class="text-weight-700">Шумоизоляция</span></div>
+                                <div class="why-table-col"><span class="text-weight-700">70 ДБ</span></div>
+                                <div class="why-table-col">34 ДБ</div>
+                                <div class="why-table-col">40 ДБ</div>
+                            </div>
+                            <div class="why-table-row">
+                                <div class="why-table-col"><span class="text-weight-700">Морозостойкость</span></div>
+                                <div class="why-table-col"><span class="text-weight-700">150 циклов <br>
+                                        заморозки</span></div>
+                                <div class="why-table-col">25 циклов <br> заморозки</div>
+                                <div class="why-table-col">100 циклов <br> заморозки</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="product-section-1">
+            <div class="container">
+                <div class="section-title">
+                    <h3>Одноэтажные дома</h3>
+                </div>
+                <div class="all_products_area">
+                    <div id="products_swiper " class="swiper products-swiper-1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/1.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+                                        <h3>
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html">
+                                                Daş yunu Texnonikol
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            “<b>Texnonikol</b>” markası altında istehsal olunan
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>daş
+                                                    yunu</b></a>
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialı</b></a>,
+                                            təbii bazalt mineralından istehsal olunur,
+                                            ekoloji&nbsp; təmizdir, ətraf mühitə və insan
+                                            sağlamlığına tam zərərsizdir.&nbsp;
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>Daş
+                                                    yunu izolyasiyası</b></a>,&nbsp; yüksək effektivliyə malik,&nbsp;
+                                            yanmaz,
+                                            istilik və səs
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialıdır</b></a>. İnşaat konstruksiyalarının,&nbsp; döşəmələrin,
+                                            arakəsmələrin, damın, fasadın və inşaatın digər
+                                            səthlərinin istilik və
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>səs
+                                                    izolyasiyası</b></a>
+                                            məqsədi ilə istifadə olunur.&nbsp; Eyni zamanda&nbsp;
+                                            tikinti konstruksiyalarının oddan qorunması, həmçinin
+                                            sendviç panellərin hazırlanmasında&nbsp; istifadə
+                                            edilir.&nbsp; İstehsal zamanı xüsusi hidrofob
+                                            maddələrdən istifadə edildiyi üçün, təklif etdiyimiz daş
+                                            yunu məhsulu nəmdən və sudan qorxmur, su
+                                            hopdurmur.&nbsp; İstifadə ediləcək yerdən asılı olaraq,
+                                            müxtəlif sıxlıqlarda istehsal olunur.
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                        Daş yunu / Termo izolyasiya / Akustik izolyasiya
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/11.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+                                        <h3>
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html">
+                                                Daş yunu Texnonikol
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            “<b>Texnonikol</b>” markası altında istehsal olunan
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>daş
+                                                    yunu</b></a>
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialı</b></a>,
+                                            təbii bazalt mineralından istehsal olunur,
+                                            ekoloji&nbsp; təmizdir, ətraf mühitə və insan
+                                            sağlamlığına tam zərərsizdir.&nbsp;
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>Daş
+                                                    yunu izolyasiyası</b></a>,&nbsp; yüksək effektivliyə malik,&nbsp;
+                                            yanmaz,
+                                            istilik və səs
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialıdır</b></a>. İnşaat konstruksiyalarının,&nbsp; döşəmələrin,
+                                            arakəsmələrin, damın, fasadın və inşaatın digər
+                                            səthlərinin istilik və
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>səs
+                                                    izolyasiyası</b></a>
+                                            məqsədi ilə istifadə olunur.&nbsp; Eyni zamanda&nbsp;
+                                            tikinti konstruksiyalarının oddan qorunması, həmçinin
+                                            sendviç panellərin hazırlanmasında&nbsp; istifadə
+                                            edilir.&nbsp; İstehsal zamanı xüsusi hidrofob
+                                            maddələrdən istifadə edildiyi üçün, təklif etdiyimiz daş
+                                            yunu məhsulu nəmdən və sudan qorxmur, su
+                                            hopdurmur.&nbsp; İstifadə ediləcək yerdən asılı olaraq,
+                                            müxtəlif sıxlıqlarda istehsal olunur.
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                        Daş yunu / Termo izolyasiya / Akustik izolyasiya
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/12.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+                                        <h3>
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html">
+                                                Daş yunu Texnonikol
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            “<b>Texnonikol</b>” markası altında istehsal olunan
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>daş
+                                                    yunu</b></a>
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialı</b></a>,
+                                            təbii bazalt mineralından istehsal olunur,
+                                            ekoloji&nbsp; təmizdir, ətraf mühitə və insan
+                                            sağlamlığına tam zərərsizdir.&nbsp;
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>Daş
+                                                    yunu izolyasiyası</b></a>,&nbsp; yüksək effektivliyə malik,&nbsp;
+                                            yanmaz,
+                                            istilik və səs
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialıdır</b></a>. İnşaat konstruksiyalarının,&nbsp; döşəmələrin,
+                                            arakəsmələrin, damın, fasadın və inşaatın digər
+                                            səthlərinin istilik və
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>səs
+                                                    izolyasiyası</b></a>
+                                            məqsədi ilə istifadə olunur.&nbsp; Eyni zamanda&nbsp;
+                                            tikinti konstruksiyalarının oddan qorunması, həmçinin
+                                            sendviç panellərin hazırlanmasında&nbsp; istifadə
+                                            edilir.&nbsp; İstehsal zamanı xüsusi hidrofob
+                                            maddələrdən istifadə edildiyi üçün, təklif etdiyimiz daş
+                                            yunu məhsulu nəmdən və sudan qorxmur, su
+                                            hopdurmur.&nbsp; İstifadə ediləcək yerdən asılı olaraq,
+                                            müxtəlif sıxlıqlarda istehsal olunur.
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                        Daş yunu / Termo izolyasiya / Akustik izolyasiya
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/13.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+                                        <h3>
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html">
+                                                Daş yunu Texnonikol
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            “<b>Texnonikol</b>” markası altında istehsal olunan
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>daş
+                                                    yunu</b></a>
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialı</b></a>,
+                                            təbii bazalt mineralından istehsal olunur,
+                                            ekoloji&nbsp; təmizdir, ətraf mühitə və insan
+                                            sağlamlığına tam zərərsizdir.&nbsp;
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>Daş
+                                                    yunu izolyasiyası</b></a>,&nbsp; yüksək effektivliyə malik,&nbsp;
+                                            yanmaz,
+                                            istilik və səs
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialıdır</b></a>. İnşaat konstruksiyalarının,&nbsp; döşəmələrin,
+                                            arakəsmələrin, damın, fasadın və inşaatın digər
+                                            səthlərinin istilik və
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>səs
+                                                    izolyasiyası</b></a>
+                                            məqsədi ilə istifadə olunur.&nbsp; Eyni zamanda&nbsp;
+                                            tikinti konstruksiyalarının oddan qorunması, həmçinin
+                                            sendviç panellərin hazırlanmasında&nbsp; istifadə
+                                            edilir.&nbsp; İstehsal zamanı xüsusi hidrofob
+                                            maddələrdən istifadə edildiyi üçün, təklif etdiyimiz daş
+                                            yunu məhsulu nəmdən və sudan qorxmur, su
+                                            hopdurmur.&nbsp; İstifadə ediləcək yerdən asılı olaraq,
+                                            müxtəlif sıxlıqlarda istehsal olunur.
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                        Daş yunu / Termo izolyasiya / Akustik izolyasiya
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/14.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+                                        <h3>
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html">
+                                                Daş yunu Texnonikol
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            “<b>Texnonikol</b>” markası altında istehsal olunan
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>daş
+                                                    yunu</b></a>
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialı</b></a>,
+                                            təbii bazalt mineralından istehsal olunur,
+                                            ekoloji&nbsp; təmizdir, ətraf mühitə və insan
+                                            sağlamlığına tam zərərsizdir.&nbsp;
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>Daş
+                                                    yunu izolyasiyası</b></a>,&nbsp; yüksək effektivliyə malik,&nbsp;
+                                            yanmaz,
+                                            istilik və səs
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialıdır</b></a>. İnşaat konstruksiyalarının,&nbsp; döşəmələrin,
+                                            arakəsmələrin, damın, fasadın və inşaatın digər
+                                            səthlərinin istilik və
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>səs
+                                                    izolyasiyası</b></a>
+                                            məqsədi ilə istifadə olunur.&nbsp; Eyni zamanda&nbsp;
+                                            tikinti konstruksiyalarının oddan qorunması, həmçinin
+                                            sendviç panellərin hazırlanmasında&nbsp; istifadə
+                                            edilir.&nbsp; İstehsal zamanı xüsusi hidrofob
+                                            maddələrdən istifadə edildiyi üçün, təklif etdiyimiz daş
+                                            yunu məhsulu nəmdən və sudan qorxmur, su
+                                            hopdurmur.&nbsp; İstifadə ediləcək yerdən asılı olaraq,
+                                            müxtəlif sıxlıqlarda istehsal olunur.
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                        Daş yunu / Termo izolyasiya / Akustik izolyasiya
+                                    </h6>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/1.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+                                        <h3>
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html">
+                                                Daş yunu Texnonikol
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            “<b>Texnonikol</b>” markası altında istehsal olunan
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>daş
+                                                    yunu</b></a>
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialı</b></a>,
+                                            təbii bazalt mineralından istehsal olunur,
+                                            ekoloji&nbsp; təmizdir, ətraf mühitə və insan
+                                            sağlamlığına tam zərərsizdir.&nbsp;
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>Daş
+                                                    yunu izolyasiyası</b></a>,&nbsp; yüksək effektivliyə malik,&nbsp;
+                                            yanmaz,
+                                            istilik və səs
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialıdır</b></a>. İnşaat konstruksiyalarının,&nbsp; döşəmələrin,
+                                            arakəsmələrin, damın, fasadın və inşaatın digər
+                                            səthlərinin istilik və
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>səs
+                                                    izolyasiyası</b></a>
+                                            məqsədi ilə istifadə olunur.&nbsp; Eyni zamanda&nbsp;
+                                            tikinti konstruksiyalarının oddan qorunması, həmçinin
+                                            sendviç panellərin hazırlanmasında&nbsp; istifadə
+                                            edilir.&nbsp; İstehsal zamanı xüsusi hidrofob
+                                            maddələrdən istifadə edildiyi üçün, təklif etdiyimiz daş
+                                            yunu məhsulu nəmdən və sudan qorxmur, su
+                                            hopdurmur.&nbsp; İstifadə ediləcək yerdən asılı olaraq,
+                                            müxtəlif sıxlıqlarda istehsal olunur.
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                        Daş yunu / Termo izolyasiya / Akustik izolyasiya
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="swiper-notification"></span>
+                    </div>
+
+                    <div class="all-navigate_btn">
+                        <button name="prev" id="products_prev" type="button" class="products_prev">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                        <button name="next" id="products_next" type="button" class="products_next">
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="product-section-1 product-section-1-2">
+            <div class="container">
+                <div class="section-title">
+                    <h3>Двухэтажные дома</h3>
+                </div>
+                <div class="all_products_area">
+                    <div id="products_swiper" class="swiper products-swiper-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/2.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+
+                                        <p>
+
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/21.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+                                        <h3>
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html">
+                                                Daş yunu Texnonikol
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            “<b>Texnonikol</b>” markası altında istehsal olunan
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>daş
+                                                    yunu</b></a>
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialı</b></a>,
+                                            təbii bazalt mineralından istehsal olunur,
+                                            ekoloji&nbsp; təmizdir, ətraf mühitə və insan
+                                            sağlamlığına tam zərərsizdir.&nbsp;
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>Daş
+                                                    yunu izolyasiyası</b></a>,&nbsp; yüksək effektivliyə malik,&nbsp;
+                                            yanmaz,
+                                            istilik və səs
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialıdır</b></a>. İnşaat konstruksiyalarının,&nbsp; döşəmələrin,
+                                            arakəsmələrin, damın, fasadın və inşaatın digər
+                                            səthlərinin istilik və
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>səs
+                                                    izolyasiyası</b></a>
+                                            məqsədi ilə istifadə olunur.&nbsp; Eyni zamanda&nbsp;
+                                            tikinti konstruksiyalarının oddan qorunması, həmçinin
+                                            sendviç panellərin hazırlanmasında&nbsp; istifadə
+                                            edilir.&nbsp; İstehsal zamanı xüsusi hidrofob
+                                            maddələrdən istifadə edildiyi üçün, təklif etdiyimiz daş
+                                            yunu məhsulu nəmdən və sudan qorxmur, su
+                                            hopdurmur.&nbsp; İstifadə ediləcək yerdən asılı olaraq,
+                                            müxtəlif sıxlıqlarda istehsal olunur.
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                        Daş yunu / Termo izolyasiya / Akustik izolyasiya
+                                    </h6>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/22.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+                                        <h3>
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html">
+                                                Daş yunu Texnonikol
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            “<b>Texnonikol</b>” markası altında istehsal olunan
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>daş
+                                                    yunu</b></a>
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialı</b></a>,
+                                            təbii bazalt mineralından istehsal olunur,
+                                            ekoloji&nbsp; təmizdir, ətraf mühitə və insan
+                                            sağlamlığına tam zərərsizdir.&nbsp;
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>Daş
+                                                    yunu izolyasiyası</b></a>,&nbsp; yüksək effektivliyə malik,&nbsp;
+                                            yanmaz,
+                                            istilik və səs
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialıdır</b></a>. İnşaat konstruksiyalarının,&nbsp; döşəmələrin,
+                                            arakəsmələrin, damın, fasadın və inşaatın digər
+                                            səthlərinin istilik və
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>səs
+                                                    izolyasiyası</b></a>
+                                            məqsədi ilə istifadə olunur.&nbsp; Eyni zamanda&nbsp;
+                                            tikinti konstruksiyalarının oddan qorunması, həmçinin
+                                            sendviç panellərin hazırlanmasında&nbsp; istifadə
+                                            edilir.&nbsp; İstehsal zamanı xüsusi hidrofob
+                                            maddələrdən istifadə edildiyi üçün, təklif etdiyimiz daş
+                                            yunu məhsulu nəmdən və sudan qorxmur, su
+                                            hopdurmur.&nbsp; İstifadə ediləcək yerdən asılı olaraq,
+                                            müxtəlif sıxlıqlarda istehsal olunur.
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                        Daş yunu / Termo izolyasiya / Akustik izolyasiya
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/23.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+                                        <h3>
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html">
+                                                Daş yunu Texnonikol
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            “<b>Texnonikol</b>” markası altında istehsal olunan
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>daş
+                                                    yunu</b></a>
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialı</b></a>,
+                                            təbii bazalt mineralından istehsal olunur,
+                                            ekoloji&nbsp; təmizdir, ətraf mühitə və insan
+                                            sağlamlığına tam zərərsizdir.&nbsp;
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>Daş
+                                                    yunu izolyasiyası</b></a>,&nbsp; yüksək effektivliyə malik,&nbsp;
+                                            yanmaz,
+                                            istilik və səs
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialıdır</b></a>. İnşaat konstruksiyalarının,&nbsp; döşəmələrin,
+                                            arakəsmələrin, damın, fasadın və inşaatın digər
+                                            səthlərinin istilik və
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>səs
+                                                    izolyasiyası</b></a>
+                                            məqsədi ilə istifadə olunur.&nbsp; Eyni zamanda&nbsp;
+                                            tikinti konstruksiyalarının oddan qorunması, həmçinin
+                                            sendviç panellərin hazırlanmasında&nbsp; istifadə
+                                            edilir.&nbsp; İstehsal zamanı xüsusi hidrofob
+                                            maddələrdən istifadə edildiyi üçün, təklif etdiyimiz daş
+                                            yunu məhsulu nəmdən və sudan qorxmur, su
+                                            hopdurmur.&nbsp; İstifadə ediləcək yerdən asılı olaraq,
+                                            müxtəlif sıxlıqlarda istehsal olunur.
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                        Daş yunu / Termo izolyasiya / Akustik izolyasiya
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <img loading="lazy" src="/assets/img/projects/24.webp" alt="" height="280px"
+                                            width="100%" />
+                                        <div class="overlay-image_products">
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html"><i
+                                                    class="fa-solid fa-plus"></i></a>
+                                        </div>
+                                    </figure>
+                                    <button type="button" class="heart_products" name="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            view-box="0 0 32 32" fill="none">
+                                            <path
+                                                d="M16.8266 27.7466C16.3733 27.9066 15.6266 27.9066 15.1733 27.7466C11.3066 26.4266 2.66663 20.92 2.66663 11.5866C2.66663 7.46663 5.98663 4.1333 10.08 4.1333C12.5066 4.1333 14.6533 5.30663 16 7.11997C17.3466 5.30663 19.5066 4.1333 21.92 4.1333C26.0133 4.1333 29.3333 7.46663 29.3333 11.5866C29.3333 20.92 20.6933 26.4266 16.8266 27.7466Z"
+                                                stroke="none" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <article class="products_card_content">
+                                        <h3>
+                                            <a
+                                                href="https://caspian-energy.az/mehsullar/izolyasiya-materiallari/das-yunu/36-das-yunu.html">
+                                                Daş yunu Texnonikol
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            “<b>Texnonikol</b>” markası altında istehsal olunan
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>daş
+                                                    yunu</b></a>
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialı</b></a>,
+                                            təbii bazalt mineralından istehsal olunur,
+                                            ekoloji&nbsp; təmizdir, ətraf mühitə və insan
+                                            sağlamlığına tam zərərsizdir.&nbsp;
+                                            <a
+                                                href="https://caspian-energy.az/az/mehsullar/izolyasiya-materiallari/hidroizolyasiya/50-das-yunu-boru.html"><b>Daş
+                                                    yunu izolyasiyası</b></a>,&nbsp; yüksək effektivliyə malik,&nbsp;
+                                            yanmaz,
+                                            istilik və səs
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>izolyasiya
+                                                    materialıdır</b></a>. İnşaat konstruksiyalarının,&nbsp; döşəmələrin,
+                                            arakəsmələrin, damın, fasadın və inşaatın digər
+                                            səthlərinin istilik və
+                                            <a href="https://caspian-energy.az/az/izolyasiya-materiallari/"><b>səs
+                                                    izolyasiyası</b></a>
+                                            məqsədi ilə istifadə olunur.&nbsp; Eyni zamanda&nbsp;
+                                            tikinti konstruksiyalarının oddan qorunması, həmçinin
+                                            sendviç panellərin hazırlanmasında&nbsp; istifadə
+                                            edilir.&nbsp; İstehsal zamanı xüsusi hidrofob
+                                            maddələrdən istifadə edildiyi üçün, təklif etdiyimiz daş
+                                            yunu məhsulu nəmdən və sudan qorxmur, su
+                                            hopdurmur.&nbsp; İstifadə ediləcək yerdən asılı olaraq,
+                                            müxtəlif sıxlıqlarda istehsal olunur.
+                                        </p>
+                                    </article>
+                                    <h6 class="addition_products_span">
+                                        Daş yunu / Termo izolyasiya / Akustik izolyasiya
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="swiper-notification"></span>
+                    </div>
+
+                    <div class="all-navigate_btn">
+                        <button name="prev" id="products_prev" type="button" class="products_prev">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                        <button name="next" id="products_next" type="button" class="products_next">
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing py-5">
+            <div class="container">
+                <h2 class="mb-4">Комплектация</h2>
+                <div class="pricing__inner row text-center">
+                    <!-- Entry Plan -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card shadow-sm pricing__item">
+                            <div class="card-body">
+                                <div class="d-flex flex-column justify-content-between card__innner">
+                                    <div class="ribbon">
+                                        <span class="populyar">Холодный контур
+                                        </span>
+                                    </div>
+                                    <p class="display-5">от 30 000 ₽/м2
+
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li>Фундамент</li>
+                                        <li>Наружные стены</li>
+                                        <li>Внутренние несущие стены</li>
+                                        <li>Внутренние перегородки
+                                        </li>
+                                        <li>Плиты перекрытия </li>
+                                    </ul>
+                                    <a class="pricing__button">Холодный контур
+
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Teams Plan -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card shadow-sm pricing__item">
+                            <div class="card-body">
+                                <div class="d-flex flex-column justify-content-between card__innner">
+                                    <div class="ribbon">
+                                        <span class="populyar">Теплый контур
+                                        </span>
+                                    </div>
+                                    <p class="display-5">от 85 000 ₽/м2
+
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li> Холодный контур
+                                        </li>
+                                        <li>Гидроизоляция крыши</li>
+                                        <li>Водосточная система</li>
+                                        <li>Входная дверь и окна</li>
+                                    </ul>
+                                    <a class="pricing__button">Теплый контур
+
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Enterprise Plan (Most Popular) -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card shadow-sm populyar pricing__item">
+                            <div class="card-body">
+                                <div class="d-flex flex-column justify-content-between card__innner">
+                                    <div class="ribbon">
+                                        <span class="populyar">Под чистовую отделку
+                                        </span>
+                                    </div>
+                                    <p class="display-5">от 50 000 ₽/м2
+
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li>Фасадные работы</li>
+                                        <li>Отделка внутренняя White box:
+                                            шпаклевка стен в 2 слоя,
+                                            под покраску.
+                                        </li>
+                                        <li>Полы 1 эт /2 эт: утепление
+                                            пеноплексом 100мм,
+                                            полусухая стяжка.
+                                        </li>
+                                        <li>Инженерные коммуникации:
+                                            водоснабжение, водоотведение, электрика, отопление</li>
+                                    </ul>
+                                    <a class="pricing__button">Под чистовую отделку
+
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="plants">
+            <div class="container">
+                <div class=" row align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <img class="w-100 rounded-2 object-fit-cover " src="/assets/img/plant1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 lh-lg">
+                        В собственности LBM-Development находится два производства изделий из армированного
+                        полистиролбетоина в Москве и Воскресенске(МО) выпускающие 60м3 готовой продукции в сутки. Мы
+                        изготавливаем весь спектр конструкций из полистиролбетона необходимых для малоэтажного
+                        строительства с использованием армокаркаса из 8-12 арматуры и цемента марки М500-М600 (в
+                        зависимости от типа изделия). Материал выпускаемый на наших предприятиях соответствует самым
+                        строгим стандартам качества в том числе ГОСТ 33929-2016.
+                    </div>
+                </div>
+
+                <div class=" row align-items-center">
+                    <div class="col-12 col-lg-6 lh-lg">
+                        Все компоненты используемые при изготовлении являются экологически безопасными. На каждом этапе
+                        производства происходит пристальный контроль за соответствием всех процессов технологическим
+                        картам разработанным нашими технологами с многолетним опытом. В результатате четко выверенной
+                        работы мы получаем высококачественные конструкции с идеальной геометрией, требующие минимальной
+                        послемонтажной отделки, что оптимизирует конечную стоимость реализации проектов.
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img class="w-100 rounded-2 object-fit-cover" src="/assets/img/plant2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class=" row align-items-center flex-column-reverse flex-lg-row">
+                    <div class="col-12 col-lg-6">
+                        <img class="w-100 rounded-2 object-fit-cover" src="/assets/img/plant3.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 lh-lg">
+                        Мы сотрудничаем как со строительными организациями и застройщиками, так и с частными клиентами.
+                        Свяжитесь с нами, чтобы получить более подробную информацию о качестве нашей продукции и
+                        заказать образцы. Также готовы пригласить Вас на экскурсию к нам на производства, где вы сможете
+                        лично убедиться в преимуществах материала.
+                        <br><br>
+                        <b>Адреса производств:</b>
+                        г. Москва, ул. Буракова, д. 27
+                        МО, г. Воскресенск, ул. Московская, д. 41
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="heating">
+            <div class="container">
+                <h2 class="mb-4">Отопление: готовы предложить уникальные системы отопления
+                </h2>
+                <div class=" row align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <img class="w-100 rounded-2 object-fit-cover " src="/assets/img/sxem1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 lh-lg">
+                        В современном мире технологии развиваются с невероятной скоростью, и это касается не только
+                        сферы информационных технологий, но и сферы отопления. Одним из самых современных решений для
+                        отопления является криптокотел.
+                        <br>
+                        <br>
+                        <b>"Криптокотел"</b> — это инновационное устройство, которое обеспечивает отопление за счет
+                        работы
+                        оборудования по добыче криптовалюты.
+                        Данные устройства обширно называют Asic.
+                        До появления асиков монеты добывались, как вы могли слышать, при помощи видеокарт и компьютерных
+                        процессоров. На данный момент они представляют собой устройства с большими вычислительными
+                        мощностями.
+                    </div>
+                </div>
+                <div class=" row align-items-center">
+                    <div class="col-12 col-lg-6 lh-lg">
+                        <b>Преимущества криптокотла.</b>
+                        <b>— Два контура.</b>
+                        Котёл разделен на два контура с помощью пластинчатого теплообменника, который интегрирован
+                        непосредственно в сам криптокотел. У вас есть возможность использовать разные жидкости и
+                        давление в зависимости от контура. В контуре отопления давление может достигать до 10 атм.
+                        Лишнее тепло отводится с помощью внешнего модуля охлаждения (градирни).
+                        <b>—Высокая температура в контуре отопления</b>
+                        Максимальная температура в контуре отопления достигает 75 градусов цельсия. Этого хватает на
+                        закрытие многих отопительных потребностей, например ,ГВС или теплые полы.
+                        <b>—Возможность увеличить мощность</b>
+                        Если вы в будущем примите решение расширятся, можно будет поменять комплектующие, оставив
+                        гидрогруппу неизменной
+
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img class="w-100 rounded-2 object-fit-cover" src="/assets/img/sxem2.jpg" alt="">
+                    </div>
+                </div>
+                <div class=" row align-items-center flex-column-reverse flex-lg-row">
+                    <div class="col-12 col-lg-6">
+                        <img class="w-100 rounded-2 object-fit-cover" src="/assets/img/sxem3.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 lh-lg">
+                        <b> —Отсутствие шума</b>
+                        Криптокотел практически бесшумный. Единственный вентилятор, который есть в асике, это вентилятор
+                        на блоке питания, от шума которого мы также можем избавится с помощью переходного фланца и
+                        канального вентилятора
+                        <b> —Возможность отвода тепла</b>
+                        С помощью ВМО(внешнего модуля охлаждения) или так называемой градирни, вы можете эффективно
+                        сбрасывать излишки тепла. Кроме этого ВМО можно использовать как тепловую пушку и, например,
+                        отапливать гараж или любое другое помещение
+                        <b> —Круглогодичный доход от майнинга</b>
+                        Система устроена таким образом, что асик будет работать круглогодично без перерыва на обед. Это
+                        означает постоянный доход от майнинга. Тепло, которое он будет выделять летом вы можете
+                        использовать, например, для отопления бассейна, либо сбрасывать тепло на улицу с помощью
+                        градирни
+                        <b>—Легкая интеграция и установка</b>
+                        Электрокотел может работать как вспомогательный к криптокотлу. Устанавливайте криптокотел на
+                        обратную магистраль перед основным.
+                        С установкой такого котла справится человек, который может установить электрический бойлер, а
+                        остальному мы научим, дадим подробные инструкции.
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="heating heating-2">
+            <div class="container">
+                <h2 class="mb-4">При отсутствии возможности подключения к магистральным газопроводам мы готовы
+                    предложить энергосберегающие технологии отопления
+
+                </h2>
+                <div class=" row align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <img class="w-100 rounded-2 object-fit-cover " src="/assets/img/ekn.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 lh-lg">
+                        Являемся эксклюзивными дистрибьюторами систем отопления с высоким КПД. Данный вид
+                        обогревательных приборов производится нашими партнерами на территории Казахстана по уникальной
+                        запатентованной технологии. При использовании в отопительный сезон расходы сопоставимы со
+                        счетами на газоснабжение.
+                        <br><br>
+                        Система обогрева основана на базе электроконденсата - замкнутого циклического преобразования
+                        электрической энергии в тепловую, путем преобразования воды в пар в герметичной полости батареи.
+                        Внешне выглядят как стандартные алюминиевые радиаторы, но вместо труб подводится электропитание.
+                        Опционально возможно удаленное управление посредством WiFi модуля с интеграцией в систему умного
+                        дома.
+                        <br><br>
+                        Потребление 1 секции радиатора составляет 15 ватт и способно отопить площадь 1,5 м2. Мощность
+                        прибора зависит от количества секций.
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container">
+                <div class="section-title">
+                    <h3>Реализованные проекты</h3>
+                </div>
+
+                <div class="all_products_area">
+                    <div id="products_swiper" class="swiper products-swiper-3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <a href="/assets/img/proyek1.jpg" data-fancybox data-caption="Project">
+                                            <img loading="lazy" src="/assets/img/proyek1.jpg" alt="" height="280px"
+                                                width="100%" />
+                                            <div class="overlay-image_products">
+                                                <i style="color: #fff;" class="fa-solid fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <a href="/assets/img/proyekt2.jpg" data-fancybox data-caption="Project">
+                                            <img loading="lazy" src="/assets/img/proyekt2.jpg" alt="" height="280px"
+                                                width="100%" />
+                                            <div class="overlay-image_products">
+                                                <i style="color: #fff;" class="fa-solid fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <a href="/assets/img/proyekt3.jpg" data-fancybox data-caption="Project">
+                                            <img loading="lazy" src="/assets/img/proyekt3.jpg" alt="" height="280px"
+                                                width="100%" />
+                                            <div class="overlay-image_products">
+                                                <i style="color: #fff;" class="fa-solid fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <a href="/assets/img/proyekt4.jpg" data-fancybox data-caption="Project">
+                                            <img loading="lazy" src="/assets/img/proyekt4.jpg" alt="" height="280px"
+                                                width="100%" />
+                                            <div class="overlay-image_products">
+                                                <i style="color: #fff;" class="fa-solid fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <a href="/assets/img/proyekt5.jpg" data-fancybox data-caption="Project">
+                                            <img loading="lazy" src="/assets/img/proyekt5.jpg" alt="" height="280px"
+                                                width="100%" />
+                                            <div class="overlay-image_products">
+                                                <i style="color: #fff;" class="fa-solid fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <a href="/assets/img/proyekt6.jpg" data-fancybox data-caption="Project">
+                                            <img loading="lazy" src="/assets/img/proyekt6.jpg" alt="" height="280px"
+                                                width="100%" />
+                                            <div class="overlay-image_products">
+                                                <i style="color: #fff;" class="fa-solid fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <a href="/assets/img/proyekt7.jpg" data-fancybox data-caption="Project">
+                                            <img loading="lazy" src="/assets/img/proyekt7.jpg" alt="" height="280px"
+                                                width="100%" />
+                                            <div class="overlay-image_products">
+                                                <i style="color: #fff;" class="fa-solid fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <a href="/assets/img/proyekt8.jpg" data-fancybox data-caption="Project">
+                                            <img loading="lazy" src="/assets/img/proyekt8.jpg" alt="" height="280px"
+                                                width="100%" />
+                                            <div class="overlay-image_products">
+                                                <i style="color: #fff;" class="fa-solid fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <a href="/assets/img/proyekt9.jpg" data-fancybox data-caption="Project">
+                                            <img loading="lazy" src="/assets/img/proyekt9.jpg" alt="" height="280px"
+                                                width="100%" />
+                                            <div class="overlay-image_products">
+                                                <i style="color: #fff;" class="fa-solid fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="products_card">
+                                    <figure class="products_card_image">
+                                        <a href="/assets/img/proyekt10.jpg" data-fancybox data-caption="Project">
+                                            <img loading="lazy" src="/assets/img/proyekt11.jpg" alt="" height="280px"
+                                                width="100%" />
+                                            <div class="overlay-image_products">
+                                                <i style="color: #fff;" class="fa-solid fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                    <h6 class="addition_products_span">
+                                    </h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <span class="swiper-notification"></span>
+                    </div>
+
+                    <div class="all-navigate_btn">
+                        <button name="prev" id="products_prev" type="button" class="products_prev">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                        <button name="next" id="products_next" type="button" class="products_next">
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--<section class="question-section">
+            <div class="container">
+                <div class="question">
+                    <div class="question-wrapper">
+                        <div class="section-title">
+                            <h2>Часто задаваемые вопросы</h2>
+                        </div>
+
+                        <div class="accrodion-grp faq-accrodion" data-grp-name="faq-accrodion">
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>Первый вопрос</h4>
+                                </div>
+                                <div class="accrodion-content" style="display: none">
+                                    <p>
+                                        <b><i><span style="font-size: 14px">Lorem lorem lorem Lorem
+                                                </span></i></b>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>Второй вопрос</h4>
+                                </div>
+                                <div class="accrodion-content" style="display: none">
+                                    <p>
+                                        ТКО (твердые коммунальные отходы) — отходы, которые
+                                        образуются в жилых помещениях в процессе потребления, а
+                                        также товары, утратившие свои потребительские свойства в
+                                        процессе их использования.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>Третий вопрос</h4>
+                                </div>
+                                <div class="accrodion-content" style="display: none">
+                                    <p>
+                                        С 1 июня 2017 года работы по договорам о выполнении
+                                        инженерных изысканий, о подготовке проектной документации,
+                                        заключенным с застройщиком техническим заказчиком, должны
+                                        выполняться только членами соответствующей
+                                        саморегулируемой организации. При этом субподрядчикам
+                                        членство в СРО не требуется.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>Четвертый вопрос</h4>
+                                </div>
+                                <div class="accrodion-content" style="display: none">
+                                    <p>
+                                        НЧтобы получить лицензию на вывоз твердых коммунальных
+                                        отходов (ТКО), нужно направить заявление в территориальный
+                                        орган Росприроднадзора. Кроме того, необходимо
+                                        соответствовать лицензионным требованиям. Так, для
+                                        выполнения работ по транспортированию отходов у соискателя
+                                        лицензии должны быть специально оборудованные и снабженные
+                                        специальными знаками транспортные средства.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>Пятый вопрос</h4>
+                                </div>
+                                <div class="accrodion-content" style="display: none">
+                                    <p>
+                                        Непроведение СОУТ — это административное правонарушение,
+                                        за которое предусмотрена ответственность в виде
+                                        предупреждения или наложения штрафа, установленного частью
+                                        2 статьи 5.27.1 Кодекса об административных
+                                        правонарушениях РФ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
+        <section id="partnors-home">
+            <div class="container">
+                <div class="section-title">
+                    <h3>Партнеры</h3>
+                </div>
+                <div class="swiper" id="partnors-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="partnors-home-card">
+                                <img height="80px" width="100%" loading="lazy" src="/assets/img/part1.jpg" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partnors-home-card">
+                                <img height="80px" width="100%" loading="lazy" src="/assets/img/part2.jpg" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partnors-home-card">
+                                <img height="80px" width="100%" loading="lazy" src="/assets/img/part3.jpg" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partnors-home-card">
+                                <img height="80px" width="100%" loading="lazy" src="/assets/img/part4.jpg" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partnors-home-card">
+                                <img height="80px" width="100%" loading="lazy" src="/assets/img/part5.jpg" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partnors-home-card">
+                                <img height="80px" width="100%" loading="lazy" src="/assets/img/part6.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="call-to-action">
+            <div class="container">
+                <div class="content_area">
+                    <div class="row">
+                        <div class="col-12 col-xl-6 col-lg-5">
+                            <div class="call_to_action_content">
+                                <h3>
+                                    <img loading="lazy" src="/assets/img/shake-hand.webp" height="50px" width="50px" />
+                                    Заполните все поля и мы с вами свяжемся
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6 col-lg-7">
+                            <form method="post" id="sendmail" name="sendmail" action="">
+                                <input type="hidden" name="linkk" />
+                                <input type="hidden" name="device" />
+                                <input type="hidden" name="ipadresi" value="82.194.27.140" />
+                                <p></p>
+                                <div class="forms_area">
+                                    <div class="forms_textarea">
+                                        <textarea id="textarea" aria-labelledby="help_you" required="true"
+                                            name="help_you"></textarea>
+                                        <label for="textarea" class="call_label">Напишите как мы вам можем
+                                            помочь?</label>
+                                    </div>
+
+                                    <div class="form_flex">
+                                        <div class="forms_input">
+                                            <input type="text" id="input-1" aria-labelledby="name_surname"
+                                                required="true" name="name_surname" />
+                                            <label for="input-1" class="call_label">Ваше имя</label>
+                                        </div>
+                                        <div class="forms_input">
+                                            <input type="text" id="input-2" aria-labelledby="phone_number"
+                                                required="true" name="phone_number" />
+                                            <label for="input-2" class="call_label">Ваш номер телефона:</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form_flex">
+                                        <div class="forms_input button_inp col-5">
+                                            <input type="text" id="input-3" aria-labelledby="company" required="true"
+                                                name="company" />
+                                            <label for="input-3" class="call_label">Город проживание:</label>
+                                        </div>
+
+                                        <div class="forms_btn col-3">
+                                            <button type="submit" aria-label="get_order" name="get_order">
+                                                <div class="svg-wrapper-1">
+                                                    <div class="svg-wrapper">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            width="24" height="24">
+                                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                                            <path fill="currentColor"
+                                                                d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <span>Получить консультацию</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container footer__inner">
+                <div class="wrapper-box">
+                    <div class="inner">
+                        <div class="logo">
+                            <img src="/assets/img/logo_fit.png" alt="" />
+                            <div class="small">
+                                <span>Производство полистиролбетона.</span>
+                                <span>Строительство и проектирование домов</span>
+                            </div>
+                        </div>
+                        <div class="footer-left">
+                            <ul class="nav menu-footer">
+                                <li class="nav-item">
+                                    <a class="nav-link text-nowrap" href="#about">
+                                        <span class="nav-item-text">О нас</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-nowrap" href="#projects">
+                                        <span class="nav-item-text">Проекты</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-nowrap" href="#partners">
+                                        <span class="nav-item-text">Партнеры</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-nowrap" href="#contact">
+                                        <span class="nav-item-text">Контакты</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a title="Контакты" class="nav-link text-nowrap" href="/" target="_self">
+                                        <span class="nav-item-text">Контакты</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-right">
+                            <div class="icms-widget" id="widget_wrapper_86">
+                                <div class="contacts">
+                                    <div class="footer__label">
+                                        <div><b>Адрес офиса продаж:</b></div>
+                                        <div class="contact city">
+                                            105118, г. Москва, ул. Буракова, 29.
+                                        </div>
+                                    </div>
+
+                                    <div class="footer__label">
+                                        <div><b>Адреса производств:</b></div>
+                                        <div class="contact city">
+                                            105118, г. Москва, ул. Буракова, 29.
+                                        </div>
+                                        <div class="contact city mt-3">
+                                            105118, г. Москва, ул. Буракова, 29.
+                                        </div>
+                                    </div>
+
+                                    <div class="contact email">
+                                        <a class="link-contact"
+                                            href="mailto:LBM_development@mail.ru">LBM_development@mail.ru</a>
+                                    </div>
+                                    <div class="contact phone">
+                                        <a class="link-contact" href="tel:+74951319299">+7 495 131 92 99</a>
+                                    </div>
+                                    <div class="contact phone">
+                                        <a class="link-contact" href="tel:+74951319299">+7 800 301 92 99</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icms-widget" id="widget_wrapper_88">
+                                <div class="social-links">
+                                    <a class="social-link vk" href="https://vk.com/lbmdevelopment">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                            xml:space="preserve">
+                                            <path fill-rule="evenodd"
+                                                d="M256 0c141.385 0 256 114.615 256 256S397.385 512 256 512 0 397.385 0 256 114.615 0 256 0m162.5 355.241V164.978l-95.137 95.131zm-304.676 3.876h284.358l-86.908-86.908-33.123 33.118a8.56 8.56 0 0 1-6.05 2.5h-32.2a8.55 8.55 0 0 1-6.051-2.5l-33.122-33.118-86.908 86.908zM93.5 164.972v190.274l95.137-95.137zm312.906-12.089H105.6l137.844 137.844h25.117z"
+                                                data-original="#000000" />
+                                        </svg>
+                                    </a>
+
+                                    <a class="social-link telegram" href="https://t.me/LBMdevelopment">
+                                        <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <rect id="Rectangle 1" rx="20.000000" width="40.000000" height="40.000000"
+                                                fill="currentColor" fill-opacity="1.000000"></rect>
+                                            <path id="Vector"
+                                                d="M28 12.6025L24.9941 28.292C24.9941 28.292 24.5742 29.3799 23.4189 28.8584L16.4844 23.3525L16.4521 23.3359C17.3887 22.4658 24.6523 15.7031 24.9697 15.3965C25.4609 14.9209 25.1562 14.6387 24.5859 14.9971L13.8564 22.0527L9.71777 20.6104C9.71777 20.6104 9.06641 20.3711 9.00391 19.8486C8.94043 19.3262 9.73926 19.0439 9.73926 19.0439L26.6133 12.1885C26.6133 12.1885 28 11.5576 28 12.6025Z"
+                                                fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"></path>
+                                        </svg>
+                                    </a>
+
+                                    <a class="social-link whatsapp"
+                                        href="https://wa.me/79096828282?text=Здравствуйте,%20пишу%20вам%20с%20вашего%20сайта.">
+                                        <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <rect id="Rectangle 1" rx="20.000000" width="40.000000" height="40.000000"
+                                                fill="currentColor" fill-opacity="1.000000"></rect>
+                                            <path id="Vector"
+                                                d="M27.9268 12.0625C25.9512 10.0938 23.3174 9 20.5361 9C14.7559 9 10.0732 13.667 10.0732 19.4268C10.0732 21.25 10.585 23.0732 11.4639 24.6045L10 30L15.5605 28.542C17.0977 29.3438 18.7803 29.7812 20.5361 29.7812C26.3174 29.7812 31 25.1143 31 19.3545C30.9268 16.6562 29.9023 14.0312 27.9268 12.0625ZM25.585 23.1455C25.3662 23.7295 24.3418 24.3125 23.8291 24.3857C23.3906 24.458 22.8047 24.458 22.2197 24.3125C21.8535 24.167 21.3418 24.0205 20.7559 23.7295C18.1221 22.6357 16.4395 20.0107 16.293 19.792C16.1465 19.6455 15.1953 18.4062 15.1953 17.0938C15.1953 15.7812 15.8535 15.1982 16.0732 14.9062C16.293 14.6143 16.585 14.6143 16.8047 14.6143C16.9512 14.6143 17.1709 14.6143 17.3174 14.6143C17.4639 14.6143 17.6826 14.542 17.9023 15.0518C18.1221 15.5625 18.6338 16.875 18.707 16.9482C18.7803 17.0938 18.7803 17.2393 18.707 17.3857C18.6338 17.5312 18.5605 17.6768 18.415 17.8232C18.2686 17.9688 18.1221 18.1875 18.0488 18.2607C17.9023 18.4062 17.7559 18.5518 17.9023 18.7705C18.0488 19.0625 18.5605 19.8643 19.3662 20.5938C20.3906 21.4688 21.1953 21.7607 21.4883 21.9062C21.7803 22.0518 21.9268 21.9795 22.0732 21.833C22.2197 21.6875 22.7314 21.1045 22.8779 20.8125C23.0244 20.5205 23.2441 20.5938 23.4639 20.667C23.6826 20.7393 25 21.3955 25.2197 21.542C25.5117 21.6875 25.6582 21.7607 25.7314 21.833C25.8047 22.0518 25.8047 22.5625 25.585 23.1455Z"
+                                                fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"></path>
+                                        </svg>
+                                    </a>
+
+                                    <a class="social-link viber" href="https://viber.click/79096828282">
+                                        <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <rect id="Rectangle 1" rx="20.000000" width="40.000000" height="40.000000"
+                                                fill="currentColor" fill-opacity="1.000000"></rect>
+                                            <path id="Vector"
+                                                d="M26.2539 9.5459C22.4424 8.81836 18.4844 8.81836 14.6729 9.5459C12.9873 9.91016 10.8613 11.9482 10.4951 13.5488C9.83496 16.6787 9.83496 19.8818 10.4951 23.0117C10.9346 24.6133 13.0605 26.6514 14.6729 27.0156C14.7461 27.0156 14.8193 27.0879 14.8193 27.1611L14.8193 31.7461C14.8193 31.9648 15.1123 32.1104 15.2588 31.8916L17.458 29.6357C17.458 29.6357 19.2168 27.8154 19.5107 27.5244C19.5107 27.5244 19.584 27.4521 19.6572 27.4521C21.8564 27.5244 24.1279 27.3066 26.3271 26.9424C28.0127 26.5781 30.1387 24.54 30.5049 22.9395C31.165 19.8096 31.165 16.6064 30.5049 13.4766C30.0654 11.9482 27.9395 9.91016 26.2539 9.5459ZM26.3271 23.2305C25.9609 23.958 25.5205 24.54 24.7881 24.9043C24.5684 24.9775 24.3486 25.0498 24.1279 25.123C23.835 25.0498 23.6152 24.9775 23.3955 24.9043C21.0498 23.958 18.8506 22.6475 17.0918 20.7549C16.1387 19.6631 15.332 18.4258 14.6729 17.1162C14.3799 16.4609 14.0859 15.8789 13.8662 15.2236C13.6465 14.6406 14.0127 14.0586 14.3799 13.6221C14.7461 13.1855 15.1855 12.8945 15.6992 12.6758C16.0654 12.457 16.4316 12.6035 16.7256 12.8945C17.3115 13.6221 17.8975 14.3496 18.3379 15.1504C18.6309 15.6602 18.5576 16.2422 18.0449 16.6064C17.8975 16.6787 17.8242 16.752 17.6777 16.8975C17.6045 16.9707 17.458 17.043 17.3848 17.1885C17.2383 17.4072 17.2383 17.625 17.3115 17.8438C17.8975 19.5176 18.9971 20.8281 20.6836 21.5557C20.9766 21.7012 21.1963 21.7744 21.5625 21.7744C22.0762 21.7012 22.2959 21.1191 22.6621 20.8281C23.0283 20.5371 23.4688 20.5371 23.9082 20.7549C24.2744 20.9736 24.6416 21.2646 25.0811 21.5557C25.4473 21.8477 25.8145 22.0654 26.1807 22.3564C26.4004 22.502 26.4736 22.8662 26.3271 23.2305ZM23.249 17.7715C22.9551 17.7715 22.8818 17.625 22.8086 17.4072C22.8086 17.2617 22.8086 17.043 22.7354 16.8975C22.6621 16.6064 22.5156 16.3154 22.2227 16.0967C22.0762 16.0244 21.9297 15.9512 21.7832 15.8789C21.5625 15.8057 21.416 15.8057 21.1963 15.8057C20.9766 15.7334 20.9033 15.5869 20.9033 15.3691C20.9033 15.2236 21.123 15.0781 21.2695 15.0781C22.4424 15.1504 23.3223 15.8057 23.4688 17.1885C23.4688 17.2617 23.4688 17.4072 23.4688 17.4795C23.4688 17.625 23.3955 17.7715 23.249 17.7715ZM22.5156 14.5684C22.1494 14.4229 21.7832 14.2773 21.3428 14.2041C21.1963 14.2041 20.9766 14.1318 20.8301 14.1318C20.6104 14.1318 20.4629 13.9863 20.5371 13.7676C20.5371 13.5488 20.6836 13.4033 20.9033 13.4766C21.6357 13.5488 22.2959 13.6953 22.9551 13.9863C24.2744 14.6406 25.0078 15.7334 25.2275 17.1885C25.2275 17.2617 25.2275 17.334 25.2275 17.4072C25.2275 17.5527 25.2275 17.6982 25.2275 17.917C25.2275 17.9893 25.2275 18.0625 25.2275 18.1348C25.1543 18.4258 24.6416 18.499 24.5684 18.1348C24.5684 18.0625 24.4951 17.917 24.4951 17.8438C24.4951 17.1885 24.3486 16.5332 24.0547 15.9512C23.6152 15.2959 23.1025 14.8594 22.5156 14.5684ZM26.4736 18.9355C26.2539 18.9355 26.1074 18.7168 26.1074 18.499C26.1074 18.0625 26.0342 17.625 25.9609 17.1885C25.668 14.8594 23.7617 12.9668 21.4893 12.6035C21.123 12.5303 20.7568 12.5303 20.4629 12.457C20.2432 12.457 19.9502 12.457 19.877 12.166C19.8037 11.9482 20.0234 11.7295 20.2432 11.7295C20.3164 11.7295 20.3896 11.7295 20.3896 11.7295C23.4688 11.8027 26.0342 13.8408 26.5469 16.8975C26.6201 17.4072 26.6934 17.917 26.6934 18.499C26.8398 18.7168 26.6934 18.9355 26.4736 18.9355Z"
+                                                fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="wrapper-box">
+                    <div class="inner">
+                        <div class="icms-widget policy" id="widget_wrapper_85">
+                            <a class="link" href="/">Политика конфиденциальности</a>
+                        </div>
+                        <div class="icms-widget copyright" id="widget_wrapper_84">
+                            © 2024 «LBM-DEVELOPMENT»
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="qr-wrapper">
+            <img src="/assets/img/qr-code-tg.png" alt="" />
+            <img src="/assets/img/qr-code-wp.png" alt="" />
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/assets/js/index.js"></script>
+</body>
+
+</html>
